@@ -1,0 +1,12 @@
+{
+  "name": "html-css-component-ci",
+  "version": "1.0.0",
+  "description": "CI/CD setup for HTML card validation",
+  "main": "clone.html",
+  "scripts": {
+    "test": "htmlhint clone.html"
+  },
+  "devDependencies": {
+    "htmlhint": "^1.1.4"
+  }
+}
